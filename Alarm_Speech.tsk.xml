@@ -1,0 +1,89 @@
+<TaskerData sr="" dvi="1" tv="4.3">
+	<Task sr="task46">
+		<cdate>1372042669807</cdate>
+		<edate>1392513687299</edate>
+		<id>46</id>
+		<nme>Alarm Speech</nme>
+		<pri>10</pri>
+		<Action sr="act0" ve="5">
+			<code>130</code>
+			<Str sr="arg0" ve="3">Alarm GetWeather</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="10"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+		</Action>
+		<Action sr="act1" ve="5">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%MEDIAVOL</Str>
+			<Str sr="arg1" ve="3">%VOLM</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act10" ve="5">
+			<code>549</code>
+			<Str sr="arg0" ve="3">%ALARMVOL</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act2" ve="5">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%ALARMVOL</Str>
+			<Str sr="arg1" ve="3">%VOLA</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act3" ve="5">
+			<code>303</code>
+			<Int sr="arg0" val="3"/>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act4" ve="5">
+			<code>307</code>
+			<Int sr="arg0" val="15"/>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act5" ve="5">
+			<code>590</code>
+			<Str sr="arg0" ve="3">%TIME</Str>
+			<Str sr="arg1" ve="3">.</Str>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act6" ve="5">
+			<code>559</code>
+			<Str sr="arg0" ve="3">Good morning, it's %TIME1:%TIME2. Today is %DAYW the %DATE. 
+
+It's currently %CURRENT621 degrees. The forecast for today is %FORECAST23 degrees, %FORECAST241.</Str>
+			<Str sr="arg1" ve="3">default:default</Str>
+			<Int sr="arg2" val="3"/>
+			<Int sr="arg3" val="5"/>
+			<Int sr="arg4" val="5"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+		</Action>
+		<Action sr="act7" ve="5">
+			<code>303</code>
+			<Int sr="arg0">
+				<var>%ALARMVOL</var>
+			</Int>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act8" ve="5">
+			<code>307</code>
+			<Int sr="arg0">
+				<var>%MEDIAVOL</var>
+			</Int>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act9" ve="5">
+			<code>549</code>
+			<Str sr="arg0" ve="3">%MEDIAVOL</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+	</Task>
+</TaskerData>
